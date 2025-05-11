@@ -1,0 +1,40 @@
+/* home.css */
+
+.read-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  overflow: hidden;         /* Prevent content from spilling out */
+  word-wrap: break-word;    /* Break long words */
+  text-overflow: ellipsis;  /* Optional: trim overflow with "..." */
+}
+
+.read-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+.read-container h3 {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.read-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.read-container .content-wrapper {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
